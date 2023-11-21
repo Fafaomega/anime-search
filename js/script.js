@@ -84,5 +84,4 @@ function randomizar() {
     const animeAleatorio = document.querySelector('.' + classeAnimeAleatorio); // aqui estou adicionando o nome do anime como se fosse uma classe para mostrar no modal
 
     abrirJanela(animeAleatorio, true);
-
 };
