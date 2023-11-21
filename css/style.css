@@ -1,0 +1,285 @@
+body{
+    background-color: purple;
+}
+#lupa{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.random {
+    margin-left: 1100px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+#pesquisa{
+    text-indent: 2px;
+    text-align: justify;
+    width: 230px;
+    height: 22px;
+    display: flex;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+} 
+.barra-de-pesquisa{
+    text-indent: 2px;
+    text-align: justify;
+    width: 250px;
+    height: 18px;
+    margin: 15px auto;
+    display: flex;
+    border-radius: 15px;
+    border: none;
+    bottom: 10%;
+}
+.one-piece{
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.one-piece h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.one-piece h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.one-piece p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+    text-indent: 5px;
+}
+.hunter-x-hunter{
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.hunter-x-hunter h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.hunter-x-hunter h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.hunter-x-hunter p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.naruto{
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.naruto h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.naruto h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.naruto p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.fire-force {
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.fire-force h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.fire-force h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.fire-force p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.capa-fire-force {
+    border-radius: 3px;
+    width: 250px;
+    margin-left: -25px;
+}
+.kimetsu-no-yaiba {
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.kimetsu-no-yaiba h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.kimetsu-no-yaiba h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.kimetsu-no-yaiba p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.capa-demon {
+    border-radius: 5px;
+    width: 250px;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+.tsubasa {
+    box-shadow: 5px 5px 5px black;
+    width: 680px;
+    background-color: rgb(39, 26, 70);
+    color: yellow;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Kanit', sans-serif;
+}
+.tsubasa h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.tsubasa h3 {
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(21, 95, 125);
+    border-radius: 10px;
+    padding: 10px;
+}
+.tsubasa p {
+    flex-direction: column;
+    text-indent: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.fechar-modal{
+    text-align: center;
+    margin-top: -55px;
+    margin-left: -15px;
+    background-color: rgb(39, 26, 70);
+    height: 50px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fechar-modal:hover{
+    color: red;
+}
+.capa {
+    border-radius: 3px;
+    width: 250px;
+    margin-left: -15px;
+}
+.modal {
+    display: flex;
+}
+.capa-naruto {
+    margin-left: -25px;
+    border-radius: 3px;
+    width: 270px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,900&family=Roboto+Mono:ital,wght@0,300;1,700&display=swap');

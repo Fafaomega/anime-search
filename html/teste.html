@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Pesquisa de Animes</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="barra-de-pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite um anime">
+            <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;" onclick="search()" id="lupa"></i>
+        </div>
+        <nav class="random"><i class="fa-solid fa-dice fa-2xl" style="color: #ffffff;" id="dado" onclick="randomizar()"></i></nav>
+        <ul id="resultados">
+            <li class="one-piece">
+                <span class="fechar-modal">x</span>
+                <img class="capa" src="../img/One-Piece-Capa-Anime-001-Luffy-Nami-Zoro-Usopp-Sanji.webp"
+                    alt="Capa one piece">
+                <div class="sinopse">
+                    <h1>one piece</h1>
+                    <p>Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos
+                        Piratas,
+                        Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras
+                        lançaram
+                        legiões aos mares. "Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo
+                        que
+                        este
+                        mundo pode oferecer!".
+                        Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                        com
+                        fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!
+                    </p>
+                    <h3>Episódios: 1075</h3>
+                </div>
+            </li>
+            <li class="fire-force">
+                <span class="fechar-modal">x</span>
+                <img class="capa-fire-force" src="../img/b8aa8ff7981b27c2428a7deeec5ce1e2.png"
+                    alt="capa anime fire force">
+                <div class="sinopse">
+                    <h1>fire force</h1>
+                    <p>Shinra e seus companheiros estão prontos para entrar para a Brigada de Incêndio para impedir que
+                        os demônios flamejantes, chamados de Infernais, incendeiem toda a cidade!</p>
+                    <h3>Episódios: 48</h3>
+                </div>
+            </li>
+            <li class="hunter-x-hunter">
+                <span class="fechar-modal">x</span>
+                <img class="capa" src="../img/cbb55a6382682bf71e91f685c6473c5a.jpe" alt="Capa hunter x hunter">
+                <div class="sinopse">
+                    <h1>Hunter x Hunter</h1>
+                    <p>Monstros amedrontadores, criaturas exóticas, riquezas vastas, tesouros misteriosos, terras
+                        vis e terras inexploradas... Gon parte em uma aventura para se tornar um caçador
+                        profissional que arrisca a própria vida em busca do desconhecido. Pelo caminho, ele conhece
+                        outros participantes da Prova dos Caçadores: Kurapika, Leorio e Killua. Será Gon capaz de
+                        vencer os grandes desafios da Prova de Caçadores e se tornar o melhor do mundo? Esta jornada
+                        selvagem e épica está prestes a começar!!</p>
+                    <h3>Episódios: 149</h3>
+                </div>
+            </li>
+            <li class="naruto">
+                <span class="fechar-modal">x</span>
+                <img class="capa" src="../img/naruto.jpg" alt="capa naruto classico">
+                <div class="sinopse">
+                    <h1>Naruto Clássico</h1>
+                    <p>A Vila Oculta da Folha é lar dos ninjas mais sorrateiros. Mas doze anos atrás, uma temível
+                        Raposa de Nove Caudas aterrorizou a vila, até ser derrotada e selada no corpo de um garoto
+                        recém-nascido</p>
+                    <h3>Episódios: 220</h3>
+                </div>
+            </li>
+            <li class="kimetsu-no-yaiba">
+                <span class="fechar-modal">x</span>
+                <img class="capa-demon"
+                    src="../img/big-poster-anime-demon-slayer-kimetsu-no-yaiba-lo12-90x60-cm-poster-anime.jpg"
+                    alt="capa Kimetsu no Yaiba">
+                <div class="sinopse">
+                    <h1>Kimetsu No Yaiba</h1>
+                    <p>Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua
+                        família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única
+                        sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro
+                        decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o
+                        demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e
+                        dos demônios se entrelaçam, começa agora.</p>
+                    <h3>Episódios: 56</h3>
+                </div>
+            </li>
+            <li class="tsubasa">
+                <span class="fechar-modal">x</span>
+                <img class="capa" src="../img/41c3cd1d910578720cdaa307c9e06061.jpe" alt="capa Tsubasa">
+                <div class="sinopse">
+                    <h1>Captain Tsubasa</h1>
+                    <p>Esta é a história de Tsubasa Ozora, um prodígio do futebol que é transferido para a Escola
+                        Primária Nankatsu e cresce como jogador de futebol ao batalhar contra rivais de todo o Japão
+                        como Genzo Wakabayashi e Kojiro Hyuga.
+                        Com uma história refrescante, personagens únicos e técnicas poderosas que todos querem imitar,
+                        vem de um mangá cuja popularidade atravessou oceanos e chegou ao mundo todo.
+                        Dizem que por causa disso, se inspirou o nascimento de muitos jogadores de futebol profissional
+                        no Japão e no exterior.</p>
+                    <h3>Episódios: 28</h3>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>
